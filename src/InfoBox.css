@@ -1,0 +1,22 @@
+.infoBox {
+    flex: 1;
+    cursor: pointer;
+}
+
+.infoBox:not(:last-child) { /*everyone but not the last child*/
+    margin-right: 15px;
+}
+
+.infoBox__cases {
+    color:#8B4000;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.infoBox__total {
+    color: #6c757d;
+    font-weight: 700 !important; /*overriding with UI*/
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+}
